@@ -7,7 +7,8 @@ charset-normalizer==2.0.12
 click==8.0.4
 colorama==0.4.4
 cymem==2.0.6
-Cython==0.29.14
+Cython>= 0.28.5
+gunicorn==20.0.4
 databricks-cli==0.16.2
 docker==5.0.3
 Flask==2.0.3
@@ -23,7 +24,7 @@ imbalanced-learn==0.7.0
 importlib-resources==5.4.0
 itsdangerous==2.1.1
 Jinja2==3.0.3
-joblib==1.1.0
+joblib==0.15.1g
 kmodes==0.11.1
 lightgbm==3.3.2
 Mako==1.1.6
