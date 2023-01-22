@@ -1,5 +1,5 @@
 appdirs==1.4.3
-click==7.1.2
+click>=8.0
 distlib==0.3.0
 Flask==2.1.0
 Flask-Cors==3.0.8
