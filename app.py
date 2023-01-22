@@ -3,6 +3,7 @@ from flask_cors import cross_origin
 import pickle
 import pandas as pd
 import requests
+from markupsafe import escape
 from gevent.pywsgi import WSGIServer
 
 
