@@ -20,3 +20,4 @@ Werkzeug>=2.0
 wincertstore==0.2
 requests
 gevent
+streamlit
