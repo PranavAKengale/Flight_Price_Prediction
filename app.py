@@ -3,6 +3,7 @@ from flask_cors import cross_origin
 import pickle
 import pandas as pd
 import requests
+from gevent.pywsgi import WSGIServer
 
 
 app=Flask(__name__)
@@ -356,4 +357,5 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    http_server = WSGIServer(('', 5000), app)
+    http_server.serve_forever()
