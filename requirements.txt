@@ -8,7 +8,7 @@ gunicorn==20.0.4
 itsdangerous>=2.0
 Jinja2>=3.0
 joblib==0.15.1
-MarkupSafe==1.1.1
+MarkupSafe>=2.0
 numpy
 pandas
 python-dateutil==2.8.1
