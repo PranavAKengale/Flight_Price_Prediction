@@ -21,3 +21,4 @@ wincertstore==0.2
 requests
 gevent
 streamlit
+Flask-Waitress
