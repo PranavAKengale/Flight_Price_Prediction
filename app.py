@@ -358,4 +358,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run('FLASK_ENV', 'development')
+    app.run()
